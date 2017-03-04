@@ -1,0 +1,94 @@
+{
+            "scans": [
+                {
+                    "location": "DELHI, DELHI",
+                    "remark": "Arrived in",
+                    "timestamp": "2016-10-27 22:19:18+00:00",
+                    "status": "In Transit to",
+                    "clickpost_status_description": "InTransit",
+                    "clickpost_status_code": 5
+                },
+                {
+                    "location": "DELHI, DELHI",
+                    "remark": "Arrived in",
+                    "timestamp": "2016-10-27 22:19:18+00:00",
+                    "status": "In Transit to",
+                    "clickpost_status_description": "InTransit",
+                    "clickpost_status_code": 5
+                },
+                {
+                    "location": "DELHI, DELHI",
+                    "remark": "Arrived in",
+                    "timestamp": "2016-10-27 22:19:18+00:00",
+                    "status": "In Transit to",
+                    "clickpost_status_description": "InTransit",
+                    "clickpost_status_code": 5
+                },
+                {
+                    "location": "SOUTH DELHI, DELHI",
+                    "remark": "Picked up and Booking processed",
+                    "timestamp": "2016-10-27 22:15:13+00:00",
+                    "status": "Picked up and Booking processed",
+                    "clickpost_status_description": "PickedUp",
+                    "clickpost_status_code": 4
+                },
+                {
+                    "location": "MUMBAI, MUMBAI",
+                    "remark": "In Transit to",
+                    "timestamp": "2016-10-28 00:15:32+00:00",
+                    "status": "In Transit to",
+                    "clickpost_status_description": "InTransit",
+                    "clickpost_status_code": 5
+                },
+                {
+                    "location": "MUMBAI, MUMBAI",
+                    "remark": "Arrived at",
+                    "timestamp": "2016-10-29 12:31:05+00:00",
+                    "status": "Arrived at",
+                    "clickpost_status_description": "InTransit",
+                    "clickpost_status_code": 5
+                },
+                {
+                    "location": "MUMBAI, MUMBAI",
+                    "remark": "Delivered on 03 Nov 16 - Signed by sign",
+                    "timestamp": "2016-11-03 08:10:56+00:00",
+                    "status": "Delivered",
+                    "clickpost_status_description": "Delivered",
+                    "clickpost_status_code": 8
+                },
+                {
+                    "location": "None",
+                    "remark": "OrderPlaced",
+                    "timestamp": "2016-10-26 16:33:23.650953+00:00",
+                    "status": "OrderPlaced",
+                    "clickpost_status_description": "OrderPlaced",
+                    "clickpost_status_code": 1
+                },
+                {
+                    "location": "MUMBAI, MUMBAI",
+                    "remark": "Out For Delivery",
+                    "timestamp": "2016-10-31 13:29:24+00:00",
+                    "status": "Out For Delivery",
+                    "clickpost_status_description": "OutForDelivery",
+                    "clickpost_status_code": 6
+                },
+                {
+                    "location": "DELHI, DELHI",
+                    "remark": "In Transit to",
+                    "timestamp": "2016-10-27 22:18:57+00:00",
+                    "status": "In Transit to",
+                    "clickpost_status_description": "InTransit",
+                    "clickpost_status_code": 5
+                },
+                {
+                    "location": "DELHI, DELHI",
+                    "remark": "In Transit to",
+                    "timestamp": "2016-10-27 22:18:57+00:00",
+                    "status": "In Transit to",
+                    "clickpost_status_description": "InTransit",
+                    "clickpost_status_code": 5
+                }
+            ]
+       
+        }
+    

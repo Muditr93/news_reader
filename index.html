@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src='jquery.unveil.js'/>
+	<script src="moment.js"></script>
+	<script src="source.js"></script>
+	<script src="moment.js"></script>
+	<link rel="stylesheet" href="newview_custom.css"> 
+</head>
+<body ng-app="myApp"> <div class="se-pre-con"></div>	
+	<div id="container">
+		<div id="main-div" class="col-md-10 col-sm-10 ">
+			<div  ng-controller="customersCtrl"> 
+				<div id="hdn"> 	
+					<img id='newslogo' src='news.png'/>
+					<H1 id='pagetitle'>ORDER TIMELINE</H1> 
+				</div>
+				<div class="comment-feedback">
+					<div class="recipe comment-recipe comment-background">
+						<ul class="nav nav-tabs comment-tab">
+							<li class="active comments-active" ><a data-toggle="tab" href="#comment"  style="font-size: 22px; color: #cc0000;">Top Headlines</a></li>
+							<li><a data-toggle="tab" href="#rating" style=" font-size: 22px; color: #cc0000;">Latest Headlines</a></li>
+						</ul>
+ 					<div class="tab-content">
+						<div id="comment" class="tab-pane fade in active">
+							<div id="comments-container" class="wrapperr">
+    							<div id="cm1" class="masonry">
+									
+									<div class="item" style="display: inline-block;" ng-repeat="x in myData" >
+
+									   	<div class="comments-img"><img alt="comment 2" id="news-profile"  src = "{{ x.urlToImage }}" class="img-rounded"></div>
+								   		<div class="comments-text">
+									      		<span class="cmname">{{ x.title }}</span>
+									      		<span class="cmdate">{{x.publishedAt}} </span> <br>
+									      		<p style="margin-top:5px;" unescaped="">{{x.description}}</p>
+									   	</div>
+									</div>
+    							</div>
+    						</div>
+    					</div>
+    					<div id="rating" class="tab-pane fade">
+    						<div id="comments-container" class="wrapperr">
+								<div id="cm1" class="masonry hidden-xs">
+									<div class="item" style="display: inline-block;" ng-repeat="x in myData2" >
+										<div class="comments-img"><img id="news-profile" alt="comment 2"  src = "{{ x.urlToImage }}" class="img-rounded"></div>
+										<div class="comments-text">
+										    <a href=""><span class="cmname">{{ x.title }}</span></a><span class="cmdate">{{x.publishedAt}} </span><br>
+										    <p style="margin-top:5px;" unescaped="">{{x.description}}</p>
+										 </div>
+									</div>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+ 				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
